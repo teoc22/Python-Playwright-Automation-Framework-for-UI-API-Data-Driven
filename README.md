@@ -133,3 +133,5 @@ Project_Root/
       |      Testing        |
       +---------------------+
 ```
+
+![image](https://github.com/teoc22/Python-Playwright-Automation-Framework-for-UI-API-Data-Driven/assets/155558856/1da4a943-58f5-4a50-ab62-16700cfa2900)
