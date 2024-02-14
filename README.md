@@ -1,22 +1,22 @@
 # Description
 
 This Python Accelerator Project is designed to streamline the testing of the application, focusing on UI and API testing frameworks. Utilizing Playwright for end-to-end browser testing and pytest for organizing tests, this project provides a solid foundation for testing robust Python application. By incorporating Data Driven Testing (DDT) methodology, it allows for a more dynamic and comprehensive testing approach, significantly improving test coverage and reliability.
-
+```
 ## Tech Stack Summary
 Python 3.12
 pytest (full-featured Python testing tool)
 Playwright (provides the control of browsers)
 Requests (HTTP library for API testing)
 pytest-html (for reporting)
-
+```
 ### Principles used here:
-
+```
 1. KISS (Keep It Simple, Stupid)
 2. AHA (Avoid Hasty Abstractions)
 3. Page Object Models
 4. Data-Driven Architecture
 5. Fluent Pattern
-
+```
 #### Project Structure
 ```
 The project highlevel structure looks like this:
