@@ -134,7 +134,7 @@ Project_Root/
       +---------------------+
 ```
 
-####### Role-based Collaboration
+###### Role-based collaboration:
 
 ![image](https://github.com/teoc22/Python-Playwright-Automation-Framework-for-UI-API-Data-Driven/assets/155558856/11613717-1726-49e7-ab2d-fae9da2868fb)
 
