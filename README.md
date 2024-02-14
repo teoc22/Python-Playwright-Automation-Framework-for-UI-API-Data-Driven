@@ -19,48 +19,48 @@ Project_Root/
 ├── pytest.ini
 │
 ├── Engine/
-│   ├── API/
-│   │   └── api_wrappers.py
-│   │
-│   └── UI/
-│       ├── Browser/
-│       │   ├── browser_actions.py
-│       │   └── browser_setup.py
-│       │
-│       └── POM/
-│           ├── analyse_statistics_page.py
-│           ├── base_page.py
-│           ├── configure_synthetic_data_page.py
-│           ├── generate_synthetic_data_page.py
-│           ├── save_export_project_page.py
-│           └── upload_data_page.py
+│ ├── API/
+│ │ └── api_wrappers.py
+│ │
+│ └── UI/
+│ ├── Browser/
+│ │ ├── browser_actions.py
+│ │ └── browser_setup.py
+│ │
+│ └── POM/
+│ ├── analyse_statistics_page.py
+│ ├── base_page.py
+│ ├── configure_synthetic_data_page.py
+│ ├── generate_synthetic_data_page.py
+│ ├── save_export_project_page.py
+│ └── upload_data_page.py
 │
 ├── Playground/
-│   └── Tests/
-│       ├── API/
-│       │   ├── test_api_delete_request.py
-│       │   ├── test_api_get_request.py
-│       │   ├── test_api_post_request.py
-│       │   └── test_api_put_request.py
-│       │
-│       └── UI/
-│           ├── test_data_driven.py
-│           ├── test_end_to_end.py
-│           ├── test_navigation_error_handling.py
-│           ├── test_navigation_from_data_generation_to_save_project.py
-│           ├── test_navigation_to_analyze_statistics_page.py
-│           ├── test_navigation_to_configure_synthetic_data_page.py
-│           └── test_navigation_to_upload_data_page.py
+│ └── Tests/
+│ ├── API/
+│ │ ├── test_api_delete_request.py
+│ │ ├── test_api_get_request.py
+│ │ ├── test_api_post_request.py
+│ │ └── test_api_put_request.py
+│ │
+│ └── UI/
+│ ├── test_data_driven.py
+│ ├── test_end_to_end.py
+│ ├── test_navigation_error_handling.py
+│ ├── test_navigation_from_data_generation_to_save_project.py
+│ ├── test_navigation_to_analyze_statistics_page.py
+│ ├── test_navigation_to_configure_synthetic_data_page.py
+│ └── test_navigation_to_upload_data_page.py
 │
 └── Resources/
-    ├── API/
-    │   ├── endpoints_api.py
-    │   ├── file_path_api.py
-    │   └── project_name_api.py
-    │
-    └── UI/
-        ├── file_path_ui.py
-        ├── initial_url_ui.py
-        ├── project_name_ui.py
-        └── test_data.py
+├── API/
+│ ├── endpoints_api.py
+│ ├── file_path_api.py
+│ └── project_name_api.py
+│
+└── UI/
+├── file_path_ui.py
+├── initial_url_ui.py
+├── project_name_ui.py
+└── test_data.py
 
