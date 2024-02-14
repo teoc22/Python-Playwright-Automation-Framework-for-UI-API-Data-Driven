@@ -3,7 +3,7 @@
 This Python Accelerator Project is designed to streamline the testing of the application, focusing on UI and API testing frameworks. Utilizing Playwright for end-to-end browser testing and pytest for organizing tests, this project provides a solid foundation for testing robust Python application. By incorporating Data Driven Testing (DDT) methodology, it allows for a more dynamic and comprehensive testing approach, significantly improving test coverage and reliability.
 
 ## Project Structure
-
+```
 The project highlevel structure looks like this:
 
 1.Engine/: Core of the automation framework, handling direct interactions with the application under test. It's divided into two main parts:
@@ -22,6 +22,7 @@ a). Tests/: Dedicated space for test scripts, segregated into:
 b). Resources/: A repository for auxiliary files that support testing but don't contain test logic or core framework code, divided into:
     API/: Stores configuration files or data related to API testing (e.g., endpoint URLs, request payloads).
     UI/: Holds data and configurations for UI tests, including URLs, test data files, and potentially other resources like element selectors.
+```
 
 The project detailed structure looks like this:
 
