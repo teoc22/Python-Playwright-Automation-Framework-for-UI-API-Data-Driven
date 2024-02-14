@@ -24,7 +24,7 @@ b). Resources/: A repository for auxiliary files that support testing but don't 
     UI/: Holds data and configurations for UI tests, including URLs, test data files, and potentially other resources like element selectors.
 ```
 
-The project detailed structure looks like this:
+### Project Architecture Diagram
 
 ```
 Project_Root/
@@ -80,7 +80,7 @@ Project_Root/
         └── test_data.py
 ```
 
-### Principles used here:
+#### Principles used here:
 
 1. KISS (Keep It Simple, Stupid)
 2. AHA (Avoid Hasty Abstractions)
