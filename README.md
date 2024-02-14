@@ -4,11 +4,11 @@ This Python Accelerator Project is designed to streamline the testing of the app
 
 ## Tech Stack Summary
 ```
-Python 3.12
-pytest (full-featured Python testing tool)
-Playwright (provides the control of browsers)
-Requests (HTTP library for API testing)
-pytest-html (for reporting)
+1. Python 3.12
+2. pytest (full-featured Python testing tool)
+3. Playwright (provides the control of browsers)
+4. Requests (HTTP library for API testing)
+5. pytest-html (for reporting)
 ```
 ### Principles used here:
 ```
