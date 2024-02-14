@@ -1,6 +1,6 @@
 # Description
 
-This Python Accelerator Project is designed to streamline the testing of the application, focusing on UI and API testing frameworks. Utilizing Playwright for end-to-end browser testing and pytest for organizing tests, this project provides a solid foundation for testing robust Python application. By incorporating Data Driven Testing (DDT) methodology, it allows for a more dynamic and comprehensive testing approach, significantly improving test coverage and reliability.
+This Python Automation Project is designed to streamline the testing of the application, focusing on UI and API testing frameworks. Utilizing Playwright for end-to-end browser testing and pytest for organizing tests, this project provides a solid foundation for testing robust Python application. By incorporating Data Driven Testing (DDT) methodology, it allows for a more dynamic and comprehensive testing approach, significantly improving test coverage and reliability.
 
 ## Project Structure
 
