@@ -53,13 +53,14 @@ Project_Root/
 │           └── test_navigation_to_upload_data_page.py
 │
 └── Resources/
-├── API/
-│   ├── endpoints_api.py
-│   ├── file_path_api.py
-│   └── project_name_api.py
-│
-└── UI/
-├── file_path_ui.py
-├── initial_url_ui.py
-├── project_name_ui.py
-└── test_data.py
+    ├── API/
+    │   ├── endpoints_api.py
+    │   ├── file_path_api.py
+    │   └── project_name_api.py
+    │
+    └── UI/
+        ├── file_path_ui.py
+        ├── initial_url_ui.py
+        ├── project_name_ui.py
+        └── test_data.py
+
