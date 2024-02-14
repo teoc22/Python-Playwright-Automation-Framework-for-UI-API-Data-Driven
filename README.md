@@ -6,9 +6,22 @@ This Python Accelerator Project is designed to streamline the testing of the app
 
 The project highlevel structure looks like this:
 
-- `Engine/`: Contains core functionality including the UI and browser interactions (`Browser/`), Page Object Models (`POM/`) and API Wrappers (`API/`)
-- `Playground/Tests/`: Houses all test scripts, separated into API and UI tests for easy management and execution.
-- `Resources/`: Includes utility files like `UI/` configurations and `API/` endpoints.
+1.Engine/: Core of the automation framework, handling direct interactions with the application under test. It's divided into two main parts:
+
+a). UI/: Contains tools and utilities for UI interactions, notably through:
+    Browser/: Scripts for browser setup and actions, facilitating browser control for tests.
+    POM/ (Page Object Models): Defines objects representing web pages or components, encapsulating page-specific properties and methods to interact with them,          promoting code reuse and maintenance.
+b). API/: Encapsulates functionality for API testing, including wrappers or utilities to simplify API calls and responses handling.
+
+2.Playground/: It's divided into two main parts:
+
+a). Tests/: Dedicated space for test scripts, segregated into:
+    API/: Contains tests focused on API validation, leveraging structures defined in Engine/API/.
+    UI/: Comprises tests that interact with the user interface, utilizing tools from Engine/UI/, following the Page Object Model pattern for structured and     
+    maintainable test code.
+b). Resources/: A repository for auxiliary files that support testing but don't contain test logic or core framework code, divided into:
+    API/: Stores configuration files or data related to API testing (e.g., endpoint URLs, request payloads).
+    UI/: Holds data and configurations for UI tests, including URLs, test data files, and potentially other resources like element selectors.
 
 The project detailed structure looks like this:
 
@@ -65,5 +78,14 @@ Project_Root/
         ├── project_name_ui.py
         └── test_data.py
 ```
+
+### Principles used here:
+
+1. KISS (Keep It Simple, Stupid)
+2. AHA (Avoid Hasty Abstractions)
+3. Page Object Models
+4. Data-Driven Architecture
+5. Fluent Pattern
+
 
 
